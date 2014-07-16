@@ -1,3 +1,5 @@
+[![Stories in Ready](https://badge.waffle.io/grcocoaheads/chucknorrisios.png?label=ready&title=Ready)](http://waffle.io/grcocoaheads/chucknorrisios)
+
 ChuckNorrisJokes
 ================
 Chuck Norris iOS Application that will leverage the http://www.icndb.com/api/
