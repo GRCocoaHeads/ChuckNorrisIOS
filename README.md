@@ -16,3 +16,4 @@ This project is maintained by SageTech, and will be accepting pull requests.
 - [Chris Martin](https://github.com/cmartinpilot)
 - [Stella Cho]
 - [Murali Raja](https://github.com/muraliwho)
+- [Dan McCracken](https://www.github.com/mccrackend)
