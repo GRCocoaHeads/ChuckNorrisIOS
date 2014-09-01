@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F301C819B4B99E00843B7E /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F301C719B4B99E00843B7E /* Joke.swift */; };
 		37A9C207199D7D1B005FF61E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9C206199D7D1B005FF61E /* AppDelegate.swift */; };
 		37A9C209199D7D1B005FF61E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9C208199D7D1B005FF61E /* FirstViewController.swift */; };
 		37A9C20B199D7D1B005FF61E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9C20A199D7D1B005FF61E /* SecondViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F301C719B4B99E00843B7E /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		37A9C201199D7D1B005FF61E /* CHChuckNorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHChuckNorris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A9C205199D7D1B005FF61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A9C206199D7D1B005FF61E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		37A9C203199D7D1B005FF61E /* CHChuckNorris */ = {
 			isa = PBXGroup;
 			children = (
+				00F301C719B4B99E00843B7E /* Joke.swift */,
 				37A9C206199D7D1B005FF61E /* AppDelegate.swift */,
 				37A9C208199D7D1B005FF61E /* FirstViewController.swift */,
 				37A9C20A199D7D1B005FF61E /* SecondViewController.swift */,
@@ -213,6 +216,7 @@
 			files = (
 				37A9C20B199D7D1B005FF61E /* SecondViewController.swift in Sources */,
 				37A9C207199D7D1B005FF61E /* AppDelegate.swift in Sources */,
+				00F301C819B4B99E00843B7E /* Joke.swift in Sources */,
 				37A9C209199D7D1B005FF61E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +403,7 @@
 				37A9C221199D7D1B005FF61E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37A9C222199D7D1B005FF61E /* Build configuration list for PBXNativeTarget "CHChuckNorrisTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +412,7 @@
 				37A9C224199D7D1B005FF61E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
