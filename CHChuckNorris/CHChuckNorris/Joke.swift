@@ -26,7 +26,9 @@ class Joke : NSObject {
             
             let json = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error: nil) as NSDictionary
             
-            onCompletion(json)
+            dispatch_async(dispatch_get_main_queue(), {
+                onCompletion(json)
+            })
             
         }
         task.resume()
