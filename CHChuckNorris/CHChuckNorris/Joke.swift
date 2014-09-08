@@ -11,6 +11,7 @@ import Foundation
 class Joke : NSObject {
     let id: Int
     let text: String
+    let imgUrl: NSURL = NSURL.URLWithString("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbBVpys8LV7PLRowgYcmkM9QKHSfh5BwCzK46UEuFAebnJYekB")
     
     init(id: Int, text: String) {
         self.id = id

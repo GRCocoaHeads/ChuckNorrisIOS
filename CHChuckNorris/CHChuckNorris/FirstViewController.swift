@@ -13,6 +13,7 @@ class FirstViewController: UIViewController {
     @IBOutlet var lblJokeId : UILabel!
     @IBOutlet var lblJokeIdValue : UILabel!
     @IBOutlet var tvJokeValue : UITextView!
+    @IBOutlet var imgVwChuckNorris: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,11 @@ class FirstViewController: UIViewController {
     func updateUIWithGivenJoke(joke : Joke) {
         lblJokeIdValue.text = "\(joke.id)";
         tvJokeValue.text = joke.text
+        
+        let imageData = NSData.dataWithContentsOfURL(joke.imgUrl, options: nil, error: nil)
+        let chuckNorrisImage = UIImage(data: imageData)
+        
+        imgVwChuckNorris.image = chuckNorrisImage
     }
     
     @IBAction func refreshJoke() {
