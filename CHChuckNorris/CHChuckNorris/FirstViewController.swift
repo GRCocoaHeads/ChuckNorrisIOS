@@ -17,7 +17,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        refreshUI();
+        refreshJoke();
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,7 +30,7 @@ class FirstViewController: UIViewController {
         tvJokeValue.text = joke.text
     }
     
-    func refreshUI() {
+    @IBAction func refreshJoke() {
         Joke.getRandomJoke (updateUIWithGivenJoke)
     }
     
