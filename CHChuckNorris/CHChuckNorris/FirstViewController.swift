@@ -37,7 +37,8 @@ class FirstViewController: UIViewController {
     }
     
     @IBAction func refreshJoke() {
-        Joke.getRandomJoke (updateUIWithGivenJoke)
+        var jokeController: JokeController = JokeController();
+        jokeController.getRandomJoke (updateUIWithGivenJoke)
     }
     
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00F301C819B4B99E00843B7E /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F301C719B4B99E00843B7E /* Joke.swift */; };
+		0823308819C4C1360024AE3D /* JokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0823308719C4C1360024AE3D /* JokeController.swift */; };
 		37A9C207199D7D1B005FF61E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9C206199D7D1B005FF61E /* AppDelegate.swift */; };
 		37A9C209199D7D1B005FF61E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9C208199D7D1B005FF61E /* FirstViewController.swift */; };
 		37A9C20B199D7D1B005FF61E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9C20A199D7D1B005FF61E /* SecondViewController.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		00F301C719B4B99E00843B7E /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		0823308719C4C1360024AE3D /* JokeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeController.swift; sourceTree = "<group>"; };
 		37A9C201199D7D1B005FF61E /* CHChuckNorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHChuckNorris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A9C205199D7D1B005FF61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A9C206199D7D1B005FF61E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				37A9C20C199D7D1B005FF61E /* Main.storyboard */,
 				37A9C20F199D7D1B005FF61E /* Images.xcassets */,
 				37A9C204199D7D1B005FF61E /* Supporting Files */,
+				0823308719C4C1360024AE3D /* JokeController.swift */,
 			);
 			path = CHChuckNorris;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			files = (
 				37A9C20B199D7D1B005FF61E /* SecondViewController.swift in Sources */,
 				37A9C207199D7D1B005FF61E /* AppDelegate.swift in Sources */,
+				0823308819C4C1360024AE3D /* JokeController.swift in Sources */,
 				00F301C819B4B99E00843B7E /* Joke.swift in Sources */,
 				37A9C209199D7D1B005FF61E /* FirstViewController.swift in Sources */,
 			);
