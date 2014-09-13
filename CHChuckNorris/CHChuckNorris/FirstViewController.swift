@@ -15,9 +15,13 @@ class FirstViewController: UIViewController {
     @IBOutlet var tvJokeValue : UITextView!
     @IBOutlet var imgVwChuckNorris: UIImageView!
     
+    var jokeController: JokeController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        jokeController = appDelegate.jokeController!
         refreshJoke();
     }
 
@@ -37,7 +41,6 @@ class FirstViewController: UIViewController {
     }
     
     @IBAction func refreshJoke() {
-        var jokeController: JokeController = JokeController();
         jokeController.getRandomJoke (updateUIWithGivenJoke)
     }
     
