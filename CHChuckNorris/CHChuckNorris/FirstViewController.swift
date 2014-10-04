@@ -21,6 +21,7 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        tvJokeValue.editable = false
         jokeController = appDelegate.jokeController!
         refreshJoke();
     }
