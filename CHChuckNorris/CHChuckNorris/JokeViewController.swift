@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class JokeViewController: UIViewController {
     
     @IBOutlet var lblJokeId : UILabel!
     @IBOutlet var lblJokeIdValue : UILabel!
@@ -22,6 +22,7 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
         jokeController = appDelegate.jokeController!
+
         refreshJoke();
     }
 
