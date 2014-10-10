@@ -32,7 +32,7 @@ class JokeViewController: UIViewController {
     }
     
     func updateUIWithGivenJoke(joke : Joke) {
-        lblJokeIdValue.text = "\(joke.id)";
+        lblJokeIdValue.text = "#\(joke.id)";
         tvJokeValue.text = joke.text
         
         let imageData = NSData.dataWithContentsOfURL(joke.imgUrl, options: nil, error: nil)
